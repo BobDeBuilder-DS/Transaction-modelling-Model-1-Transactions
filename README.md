@@ -1,2 +1,7 @@
 # Transaction-modelling-Model-1-Transactions
 Trying to find a way to improve my model's quality (or rather the quality of my features) in the model to get a better generalisation of predictions. Though rmsle performed well, it still doesn't explain why them model's predictability isn't improving. 
+A little backstory of what I am trying to achieve....I am a participant in a data science/machine learning challenge where we have to design a predictive model that will predict how many transactions a customer will make in the next 3 months. We're provided with datasets that contain transaction histories, financial histories, train- and test datasets as well as other datasets that should be of use in designing our prediction model. I have managed to train my model in various ways but the issue no longer seems to be about adding more features to my model, but rather improving the quality of my features in the model. Though my rmsle (the metric used how well the model generalises it's prediction) is doing great, but my features aren't.
+So I have decided to build each feature's model seperately and see how they perform on their own. 
+From the output of this model, my feature isn't really improving my model, but rather keeping it stagnant. 
+I suspect, there are elements that could just be adding noise to my model. 
+Nonetheless, I designed other models with features that could potentially improve my overall model. 
